@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10</title>
+    <link rel="stylesheet" href="../style/style_ejercicios.css">
+</head>
+<body>
+
+    <img id="miGif" src="../resources/dancing-cat.gif" style="display: none;" width="300">
+
+    <video id="videoFondo" autoplay muted loop class="videoFondo">
+    <source src="../resources/fondoVideo.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="activarSonido()" class="btnSonidoVideoFondo">🔊</button>
+
+    <div class="contenedorPadre">
+        <div class="informacionPrincipal">
+            <h1>Ejercicio 10</h1>
+                <p>Crea un arreglo con 3 objetos estudiante (nombre y nota). Muestra con console.log() el nombre y si aprobó o reprobó cada uno.</p>
+                <p>Mi arreglo de 3 estudiantes contiene</p>
+            <h4>[ nombre: 'Ana', nota: 8 ]</h4>
+            <h4>[ nombre: 'darwin', nota: 5 ]</h4>
+            <h4>[ nombre: 'isa', nota: 9 ]</h4>
+            <div class="formulario">
+                <button id="btnMostrarResultadoEjercicio10" class="btnRegistroNumero">Mostrar resultado</button>
+                <h4 id="MirarConsoleEjercicio10" style="display: none">Mire la console, gracias!</h4>
+                <button id="btnRegresar1" class="btnRegresar" style="display: none;">Regresar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorImagenPrincipal">
+        <img src="../resources/gato10.jfif" alt="gato malo 3">
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="../style/style_ejercicios.css">
+</head>
+<body>
+
+    <img id="miGif" src="../resources/dancing-cat.gif" style="display: none;" width="300">
+
+    <video id="videoFondo" autoplay muted loop class="videoFondo">
+    <source src="../resources/fondoVideo.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="activarSonido()" class="btnSonidoVideoFondo">🔊</button>
+
+    <div class="contenedorPadre">
+        <div class="informacionPrincipal">
+            <h1>Ejercicio 6</h1>
+                <p class="parrafoEjercicio6">Dado un arreglo con colores repetidos, pide al usuario que ingrese un color con prompt() y muestra cuántas veces aparece con alert().</p>
+                <p>Mi arreglo de colores es:</p>
+            <h4>[naranja, naranja, morado, morado, morado, azul, verde, verde, rojo, rojo, rojo, rojo, rosa, rosa, rosa]</h4>
+            <div class="formulario">
+                <button id="btnAdivinarEjercicio6" class="btnRegistroNumero">Coloca un color!</button>
+                <button id="btnRegresar1" class="btnRegresar" style="display: none;">Regresar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorImagenPrincipal">
+        <img src="../resources/gato6.jfif" alt="gato malo 3">
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>

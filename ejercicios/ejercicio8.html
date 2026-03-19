@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+    <link rel="stylesheet" href="../style/style_ejercicios.css">
+</head>
+<body>
+
+    <img id="miGif" src="../resources/dancing-cat.gif" style="display: none;" width="300">
+
+    <video id="videoFondo" autoplay muted loop class="videoFondo">
+    <source src="../resources/fondoVideo.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="activarSonido()" class="btnSonidoVideoFondo">🔊</button>
+
+    <div class="contenedorPadre">
+        <div class="informacionPrincipal">
+            <h1>Ejercicio 8</h1>
+                <p>Dado un arreglo con números repetidos, crea uno nuevo sin repeticiones y muéstralo con console.log().</p>
+                <p>Mi arreglo de numeros repetidos es:</p>
+            <h4>[1, 2, 3, 2, 4, 3, 5, 1, 6, 4]</h4>
+            <div class="formulario">
+                <button id="btnMostrarRepetidosEjercicio8" class="btnRegistroNumero">Muestra la el arreglo sin repetidos!</button>
+                <h4 id ="mireConsoleEjercicio8" style="display: none">Mire la console, gracias!</h4>
+                <button id="btnRegresar1" class="btnRegresar" style="display: none;">Regresar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorImagenPrincipal">
+        <img src="../resources/gato8.jpg" alt="gato malo 3">
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>

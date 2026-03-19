@@ -1,0 +1,125 @@
+/* Fondo */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(131, 182, 208);
+    padding-top: 80px;
+}
+.videoFondo {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    z-index: -1;       
+}
+.btnSonidoVideoFondo {
+    border: none;
+    border-radius: 5px;
+    background: rgb(36, 53, 53);
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.btnSonidoVideoFondo:hover {
+    transform: scale(1.10);
+    background: rgb(72, 114, 114);
+}
+
+/* ficha blanca */
+
+.contenedorPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+p {
+    max-width: 300px;
+    word-wrap: break-word;
+    text-align: center;
+}
+h4 {
+    max-width: 300px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.inputEjercicio {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 220px;
+}
+.inputEjercicio:hover {
+    padding: 20px;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+.btnRegistroNumero{
+    border-radius: 20px;
+    background: rgb(50, 110, 173);
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+.btnRegistroNumero:hover{
+    background: rgb(39, 84, 133);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorImagenPrincipal img:hover {
+    transform: scale(1.05);
+}
+.btnRegresar {
+    border-radius: 20px;
+    background: rgb(50, 110, 173);
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-weight: bold;
+}
+.btnRegresar:hover{
+    background: rgb(39, 84, 133);
+    transform: scale(1.05);
+}
+.btnAlertEjercicio2 {
+    border-radius: 20px;
+    background: rgb(50, 110, 173);
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.btnAlertEjercicio2:hover {
+    background: rgb(39, 84, 133);
+    transform: scale(1.05);
+}
+.inputEjercicio2 {
+    width: 200px;
+}
+.informacionPrincipal {
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../style/style_ejercicios.css">
+</head>
+<body>
+
+    <img id="miGif" src="../resources/dancing-cat.gif" style="display: none;" width="300">
+
+    <video id="videoFondo" autoplay muted loop class="videoFondo">
+    <source src="../resources/fondoVideo.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="activarSonido()" class="btnSonidoVideoFondo">🔊</button>
+
+    <div class="contenedorPadre">
+        <div class="informacionPrincipal">
+            <h1 id="ejercicio5Titulo">Ejercicio 5</h1>
+            <p>Pide al usuario un nombre con prompt(). Busca si ese nombre está en un arreglo de nombres y muestra si fue encontrado o no con alert().</p>
+            <p>Mi arreglo de nombres es:</p>
+            <h4>[kevin, daniel, david, darwin, isa]</h4>
+            <div class="formulario">
+                <button id="btnIngresarNombreEjercicio5" class="btnRegistroNumero">Intentar adivinar nombre</button>
+                <button id="btnRegresar1" class="btnRegresar" style="display: none;">Regresar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorImagenPrincipal">
+        <img src="../resources/gato5.jpg" alt="gato malo 3">
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>

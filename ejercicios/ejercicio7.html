@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="../style/style_ejercicios.css">
+</head>
+<body>
+
+    <img id="miGif" src="../resources/dancing-cat.gif" style="display: none;" width="300">
+
+    <video id="videoFondo" autoplay muted loop class="videoFondo">
+    <source src="../resources/fondoVideo.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="activarSonido()" class="btnSonidoVideoFondo">🔊</button>
+
+    <div class="contenedorPadre">
+        <div class="informacionPrincipal">
+            <h1>Ejercicio 7</h1>
+            <p>Crea un arreglo con 5 notas (0-10). Calcula el promedio y muestra si el estudiante aprobó o reprobó con alert().</p>
+            <p>Escribe tus 5 notas, de 0 a 10</p>
+            <h4>Minimo se pasa con 7 bro</h4>
+            <div class="formulario">
+                <input type="text" id="datoEjercicio7" placeholder="Escribe las 10 notas aqui" class="inputEjercicio">
+                <button id="btnRegistrarNotasEjercicio7" class="btnRegistroNumero">Registrar nota</button>
+                <button id="btnCalcularPromedioEjercicio7" class="btnRegresar" style="display: none;">Calcular promedio</button>
+                <button id="btnRegresar1" class="btnRegresar" style="display: none;">Regresar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorImagenPrincipal">
+        <img src="../resources/gato7.jpg" alt="gato malo1">
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>

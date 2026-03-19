@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="../style/style_ejercicios.css">
+</head>
+<body>
+
+    <img id="miGif" src="../resources/dancing-cat.gif" style="display: none;" width="300">
+
+    <video id="videoFondo" autoplay muted loop class="videoFondo">
+    <source src="../resources/fondoVideo.mp4" type="video/mp4">
+    </video>
+
+    <button onclick="activarSonido()" class="btnSonidoVideoFondo">🔊</button>
+
+    <div class="contenedorPadre">
+        <div class="informacionPrincipal">
+            <h1>Ejercicio 3</h1>
+            <p>De un arreglo con números del 1 al 10, crea otro arreglo que contenga solo los pares y muéstralo con alert().</p>
+            <div class="formulario">
+                <input type="text" id="datoEjercicio3" placeholder="Escribe los 10 numeros del arreglo aqui" class="inputEjercicio">
+                <button id="btnRegistroNumeroEjercicio3" class="btnRegistroNumero">Registrar numero</button>
+                <button id="btnRegresar1" class="btnRegresar" style="display: none;">Regresar</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="contenedorImagenPrincipal">
+        <img src="../resources/gato3img.jpg" alt="gato malo 3">
+    </div>
+    <script src="../app.js"></script>
+</body>
+</html>
