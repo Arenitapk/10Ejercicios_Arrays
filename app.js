@@ -351,16 +351,26 @@ btnRegistrarNotasEjercicio7.addEventListener("click", function(){
     let btnCalcularPromedioEjercicio7 = document.getElementById("btnCalcularPromedioEjercicio7");
     let promedio = 0;
     let suma = 0;
+    let aproboEjercicio7 = document.getElementById("aproboEjercicio7");
+    let noAproboEjercicio7 = document.getElementById("noAproboEjercicio7");
+
     if(btnCalcularPromedioEjercicio7){
         btnCalcularPromedioEjercicio7.addEventListener("click", function(){
+
             for(let i = 0; i<arregloEjercicio7.length;i++){
                 suma = suma + arregloEjercicio7[i];
                 promedio = suma / 5;
             }
-            alert("Tu promedio es: " + promedio);
+            if(promedio < 7){
+                alert("Tu promedio es: " + promedio + " No aprobaste wacho");
+                document.getElementById("noAproboEjercicio7").style.display = "block";
+            } else {
+            alert("Tu promedio es: " + promedio + " Bien ahi boludo max power esa mind");
             btnCalcularPromedioEjercicio7.style.display = "none";
+            document.getElementById("aproboEjercicio7").style.display = "block";
+            }
             document.getElementById("btnRegresar1").style.display = "block";
-        })
+        });
     }
 
 
